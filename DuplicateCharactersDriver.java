@@ -11,10 +11,10 @@ public class DuplicateCharactersDriver {
     public static void main(String[] args) {
 
         // create a duplicateCharacter object
-        DuplicateCharactersV2 duplicateCharacters = new DuplicateCharactersV2();
+        DuplicateCharacters duplicateCharacters = new DuplicateCharacters();
 
         // call the countDuplicateCharacters method on the duplicate character's object
-        Map<Character, Long> result = duplicateCharacters.countDuplicateCharacters("hello");
+        Map<Character, Integer> result = duplicateCharacters.countDuplicateCharacters("hello");
 
         // diplay the result 
         System.out.println(result);
