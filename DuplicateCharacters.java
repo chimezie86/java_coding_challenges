@@ -1,8 +1,15 @@
+
+// the goal of this code is to count the occurrence of duplicate characters in a string
+// The program achieves this by creating a Map data structure that stores each character as
+// a key and the corresponding freq as a value and then compares  each character with 
+// every other character after it. It loops the input string and counts each character
+// It then prints out the object containing the freq of the characters
 package java_coding_challenges;
 
 // import the map methods from java.utils library
 import java.util.Map;
 import java.util.HashMap;
+import java.util.stream.Collectors;
 
 // create a DuplicateCharacters class to hold the character counting logic
 public class DuplicateCharacters {
@@ -26,18 +33,4 @@ public class DuplicateCharacters {
         return map;
     }
 }
-// this is where our code runs
-class DuplicateCharactersDriver {
-    // the main method is the driver code that runs the duplicate character object
-    public static void main(String[] args) {
 
-        // create a duplicate characters object
-        DuplicateCharacters duplicateCharacters = new DuplicateCharacters();
-
-        // call the countDuplicateCharacters method on the duplicate character's object
-        Map<Character, Integer> result = duplicateCharacters.countDuplicateCharacters("hello");
-
-        // diplay the result 
-        System.out.println(result);
-    }
-}
