@@ -2,7 +2,7 @@
 // the goal of this code is to count the occurrence of duplicate characters in a string
 // The program achieves this by creating a Map data structure that stores each character as
 // a key and the corresponding freq as a value and then compares  each character with 
-// every other character before it. It loops the input string and counts each character
+// every other character before it. It loops through the input string and counts each character
 // It then prints out the object containing the freq of the characters
 package java_coding_challenges;
 
