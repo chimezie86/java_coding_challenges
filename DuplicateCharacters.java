@@ -34,7 +34,7 @@ class DuplicateCharactersDriver {
         // create a duplicate characters object
         DuplicateCharacters duplicateCharacters = new DuplicateCharacters();
 
-        // call the count duplicate character method on the duplicate character's object
+        // call the countDuplicateCharacters method on the duplicate character's object
         Map<Character, Integer> result = duplicateCharacters.countDuplicateCharacters("hello");
 
         // diplay the result 
