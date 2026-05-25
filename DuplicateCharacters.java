@@ -32,11 +32,11 @@ class DuplicateCharactersDriver {
     public static void main(String[] args) {
 
         // create a duplicate characters object
-        DuplicateCharacters dc = new DuplicateCharacters();
+        DuplicateCharacters duplicateCharacters = new DuplicateCharacters();
 
         // call the count duplicate character method on the duplicate character's object
-        Map<Character, Integer> result = dc.countDuplicateCharacters("hello");
-        
+        Map<Character, Integer> result = duplicateCharacters.countDuplicateCharacters("hello");
+
         // diplay the result 
         System.out.println(result);
     }
